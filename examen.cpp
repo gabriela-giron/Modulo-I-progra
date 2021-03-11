@@ -214,7 +214,7 @@ void eliminar(){
 	char next;
 	int id;
 	string nombre,apellido;
-	FILE* archivo = fopen(nom_archivo,"r+b");//para lectura y escritura
+	FILE* archivo = fopen(nom_archivo,"r+b");
 	FILE* archivoa = fopen(aux_archivo, "r+b");
 	Empleado empleado;
 	
